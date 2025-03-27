@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Primary;
 
 
 @Configuration
-@EnableDynamoDBRepositories(basePackages = {"com.dogdopt.repositories"})
+@EnableDynamoDBRepositories(basePackages = {"com.dogdopt.repository"})
 public class DynamoDbConfiguration {
 
     @Value("${aws.dynamodb.accessKey}")
