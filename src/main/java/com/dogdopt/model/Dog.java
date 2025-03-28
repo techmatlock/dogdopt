@@ -24,4 +24,32 @@ public class Dog {
     public String getDogId() {
         return dogId;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDogId(String dogId) {
+        this.dogId = dogId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
